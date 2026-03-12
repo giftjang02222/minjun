@@ -174,3 +174,33 @@
   padding-top: 2rem;
 }
 }
+@media screen and (max-width: 424px) {
+  .w li:nth-child(1) {
+    font-size: 0.8rem;
+    top: -250px;
+  }
+  .w li:nth-child(2) {
+    font-size: 0.8rem;
+    top: -240px;
+  }
+  .w li:nth-child(3) {
+    font-size: 0.8rem;
+    top: -230px;
+  }
+  .w li:nth-child(4) {
+    font-size: 0.8rem;
+    top: -130px;
+  }
+  .w li:nth-child(5) {
+    font-size: 0.8rem;
+    top: -120px;
+  }
+  .w li:nth-child(6) {
+    font-size: 0.8rem;
+    top: -110px;
+  }
+}
+@media screen and (max-width: 1024) {
+  .gallery .gallery-collection li .inner figure video{
+  }
+}
