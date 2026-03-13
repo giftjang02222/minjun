@@ -28,3 +28,17 @@ $(function(){
         $('body, .menu, .ability h2, .gallery .gallery-header h2').toggleClass('on')
     })
 })
+$(function(){
+    $('.tabnav li').click(function(){
+        let idx = $(this).index()
+        console.log(idx)
+        $('.tabnav li').removeClass('on')
+        $(this).addClass('on')
+        $('.tabitem').hide()
+        $('.tabitem').eq(idx).show()
+    })
+    $('.tabnav li').eq(0).trigger('click')
+
+    // eq = 해당하는 인덱스번호
+    // trigger = 강제로 이벤트 발생
+})
