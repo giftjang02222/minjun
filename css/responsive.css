@@ -200,7 +200,8 @@
     top: -110px;
   }
 }
-@media screen and (max-width: 1024) {
-  .gallery .gallery-collection li .inner figure video{
+@media screen and (max-width: 1024px) {
+  .popup figure video{
+    object-fit: contain;
   }
 }
